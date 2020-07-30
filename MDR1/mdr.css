@@ -1,0 +1,312 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*home section nav*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+  width: 100%;
+  height: 65px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links a {
+  color: #0088a9; /* #FFF0F5; */
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*home section image*/
+.home-section::before {
+  background-image: url(seattle.jpg); /*Seattle: <span>Photo by <a href="https://unsplash.com/@sylviasyang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sylvia Yang</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*/
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.5;
+}
+
+/*home section name*/
+.banner-1 {
+  font-family: "Mr Dafoe", cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 80px;
+  font-weight: 1001;
+  color: white;
+  -webkit-text-stroke: 1px #ff9f95; /* #fff3e1; /* #FFE4E1; */
+  -webkit-text-fill-color: #ff9f95; /*#fff3e1; /*#FFF0F5; */
+  /*text-shadow: 1px 0 #ff9f95;*/
+  text-align: center;
+  margin-top: 250px;
+}
+
+/*hover home page */
+.navbar-links li a:hover {
+  color: #ff9f95; 
+}
+
+/*hover about, job description, and contact pages*/
+
+.navbar-links-about li a:hover{
+color: #ff005c;
+}
+
+/*about, dream job, and contact nav*/
+.an {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fffafa;
+  font-family: "Raleway", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+  width: 100%;
+  height: 65px;
+}
+
+.logo {
+  color: #0088a9;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.navbar-links-about {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.navbar-links-about li {
+  list-style: none;
+}
+
+.navbar-links-about a {
+  color: #0088a9;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/*contact section icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin,
+.fa-envelope-o,
+.fa-github {
+  color: #0088a9;
+}
+
+p {
+  text-align: center;
+  color: #333;
+}
+
+#contact-page,
+#dreamjob-page,
+#about-page {
+  background-color: #ffffff; /*#FFFAFA;*/
+  font-weight: bold;
+}
+
+#about-page {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+/*contact section*/
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 40px;
+  margin-left: 20px;
+  border: 1px solid #0088a9;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba (0, 0, 0, 0.5);
+  display: flex;
+  box-shadow: 0 10px 10px #0088a9;
+}
+
+.box .imgBx {
+  width: 200px;
+  flex: 0 0 150px;
+  margin-top: 30px;
+}
+
+.box .imgBx img {
+  max-width: 120%;
+}
+
+.box .content {
+  padding-left: 30px;
+}
+
+.box .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #ff005c;
+  font-size: 22px;
+  text-align: center;
+}
+
+.box .content p {
+  margin: 0;
+  padding: 20px 0 0;
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: hidden;
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.images2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: hidden;
+  margin-top: 35px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.item {
+  width: 200px;
+  text-align: center;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-family: "Lato", sans-serif;
+  float: left;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 125px;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Lato", sans-serif;
+  color: #ff005c;
+}
+
+.top {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  float: left;
+  text-align: left;
+  padding-right: 10px;
+  margin-left: 300px;
+  color: #ff005c;
+  font-family: "Source Serif Pro", serif;
+  font-size: 35px;
+}
+
+.first {
+  float: left;
+  text-align: left;
+  padding-right: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+  color: #0088a9;
+}
+
+.second {
+  float: right;
+  text-align: right;
+  padding-right: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: #ff005c;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+}
+
+.item p {
+  color: #0088a9;
+  margin-top: 10px;
+}
+
+/*crediting dream job images 
+
+worklife.png <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+thumbsup.png <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+learning.png <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+flexible.png <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+recognition.png <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+mentorship.png <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+satisfaction.png Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+<div>Icons made by <a href="https://roundicons.com/" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+careergrowth.png <div>Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+teambuilding.png <div>Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+culturalfit.png <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+*/
+
+/*alternate colours
+https://www.rapidtables.com/web/css/css-color.html#white
+https://www.color-hex.com/color/ff9f95*/
