@@ -254,11 +254,11 @@ h3 {
 
 .top {
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   float: left;
   text-align: left;
   padding-right: 10px;
-  margin-left: 300px;
+  margin-left: 350px;
   color: #ff005c;
   font-family: "Source Serif Pro", serif;
   font-size: 35px;
@@ -268,7 +268,7 @@ h3 {
   float: left;
   text-align: left;
   padding-right: 10px;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-right: 300px;
   margin-bottom: 20px;
   color: #0088a9;
@@ -281,7 +281,7 @@ h3 {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 2px;
   color: #ff005c;
   font-size: 40px;
   font-family: "Great Vibes", cursive;
