@@ -302,13 +302,16 @@ h3 {
 color: #ff005c;
 }
 
-/*Media Queries*/
+/*Media Queries
+
+Will work on this
 
 @media screen and (max-width: 700px) {
   nav {
-  padding-left: 250px;
+  padding-left: 50px;
   padding-right: 400px;
   margin-top: 50px;
+  margin-left: 150px;
   }
 
   .banner-1 {
@@ -394,6 +397,8 @@ color: #ff005c;
   margin-top: 100px;
 }
 }
+
+*/
 
 /*crediting for inspiration behind the contact page box html and css 
 
