@@ -292,6 +292,15 @@ h3 {
   margin-top: 10px;
 }
 
+/*about page hyperlinks resume and job description*/
+.one {
+  color: #0088a9; 
+  text-decoration: none;
+}
+
+.one:hover {
+color: #ff005c;
+}
 /*crediting dream job images 
 
 worklife.png <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
